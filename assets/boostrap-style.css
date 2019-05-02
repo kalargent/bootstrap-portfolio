@@ -1,23 +1,48 @@
 
 /* HEADING 1 */
 h1 {
-  width: 220px;
+  /* width: 220px; */
   background-color: #4aaaa5;
   color: #ffffff;
   font-family: Georgia, 'Times New Roman', Times, serif;
   padding: 20px;
   margin: 0;
+  text-align: center;
   /* float: left; */
 }
 
+/* NAV LINKS */
+#nav-links {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; 
+  float: right;
+  padding-top: 25px;
+}
+
+#nav-links a {
+  padding: 10px; 
+  text-decoration: none;
+  color: #777777;
+}
+
 /* HEADING 2*/
-#h2 {
+h2 {
   color: #4aaaa5;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* PARAGRAPH */
 
+/* CONTENT AREA IN COLUMNS*/
+.content-area {
+  width: 960px;
+  /* height: 10000; */
+  background: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
 
 /* CONTAINER FOR THE IMAGE BOXES */
   .box-set {
@@ -67,3 +92,21 @@ h1 {
       padding: 15px; 
       font-family: 'Georgia', Times, Times New Roman, serif;
     }
+
+  /* FOOTER  */
+  .footer {
+    /* comment out position fixed if you want to make it look like the homework description, leave it in for stickiness */ 
+    position: fixed;
+    bottom: 0;  
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    background: #666666;
+    
+  }
+
+  .footer p {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+  }
