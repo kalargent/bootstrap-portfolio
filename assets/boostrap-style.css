@@ -32,7 +32,7 @@ body {
 /* HEADING 1 */
 h1 {
   /* width: 220px; */
-  background-color: #4aaaa5;
+  background-color: #3f6e65;
   color: #ffffff;
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin: 0;
@@ -42,7 +42,7 @@ h1 {
 
 /* HEADING 2*/
 h2 {
-  color: #4aaaa5;
+  color: #3f6e65;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 24px;
   padding-top: 20px;
@@ -163,7 +163,7 @@ br.clear {
   margin-left: 2px;
   margin-right: 6px;
   /* height: 40px; */
-  background: #4aaaa5;
+  background: #3f6e65;
   /* z-index: 1;  */
   color: white;
   text-align: center;
@@ -187,4 +187,9 @@ br.clear {
     text-align: center;
     color: #fff;
     margin: 0;
+  }
+
+  .fa-envelope {
+    color: red; 
+
   }
