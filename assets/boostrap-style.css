@@ -200,3 +200,20 @@ br.clear {
   .fa-linkedin {
     color:#3f6e65; 
   }
+
+  .fa-link {
+    color: white; 
+  }
+
+  .fa-link:hover {
+    color: #6e3f44; 
+  }
+
+  .fa-github {
+    color: white; 
+  }
+
+  .fa-github:hover {
+    color:#6e3f44;  
+  }
+
