@@ -190,6 +190,13 @@ br.clear {
   }
 
   .fa-envelope {
-    color: red; 
+    color:#3f6e65; 
+  }
 
+  .fa-mobile-alt {
+    color:#3f6e65; 
+  }
+
+  .fa-linkedin {
+    color:#3f6e65; 
   }
