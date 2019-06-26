@@ -28,7 +28,8 @@
 /* body */
 body {
   /* background-color: #C2B9B0; */
-  background-image: ("/assets/15387-NQJRGH.jpg"); 
+  background-image: url(../assets/15387-NQJRGH.jpg); 
+  background-size: cover;
 }
 
 /* HEADING 1 */
