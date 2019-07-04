@@ -228,6 +228,14 @@ br.clear {
     color:#6e3f44;  
   }
 
+  .fa-video {
+    color: white; 
+  }
+
+  .fa-video:hover {
+    color:#6e3f44;  
+  }
+
   .navbar-nav {
     padding-right: 10px; 
   }
