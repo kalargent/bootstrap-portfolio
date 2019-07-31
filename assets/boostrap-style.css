@@ -192,7 +192,26 @@ br.clear {
     
   }
 
+  /* FOOTER FOR PORTFOLIO PAGE */
+
+  .footer2 {
+    /* comment out position fixed if you want to make it look like the homework description, leave it in for stickiness */ 
+    /* position: fixed; */
+    bottom: 0;  
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    background: #AFD275;
+    
+  }
+
   .footer p {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+  }
+
+  .footer2 p {
     text-align: center;
     color: #fff;
     margin: 0;
