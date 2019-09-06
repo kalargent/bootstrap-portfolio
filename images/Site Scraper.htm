@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Scraper</title>
+
+    <!--Bootstrap Links-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script> 
+
+    <!--materialize -->
+    <!-- Compiled and minified CSS -->
+
+     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+            
+
+    <!-- Font Awesome Kit Link -->
+    <script src="https://kit.fontawesome.com/b7ff529076.js"></script>
+
+    <!-- Google Font Link-->
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rasa&display=swap" rel="stylesheet">
+
+     <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+    <h1>Site Scraper</h1>
+    <button class ="btn top-button" id="saved-list"> <i class="fas fa-star"></i> Favorites</button>
+    <button class ="btn top-button" id="all-list"><i class="fas fa-rss-square"></i> All Posts</button>
+    <button class ="btn top-button" id="clear-list"><i class="fas fa-trash-alt"></i> Clear Posts</button>
+    <button class ="btn top-button" id="scrape-list"><i class="fas fa-file-download"></i> Get Posts</button>
+    <br>
+    <hr>
+    <br>
+    
+
+
+    <div class="container">
+    <div class="row">
+        <!--START COL1 HERE -->
+        <div class="col-md-12 table-col">
+            <table class="table table-striped">
+              
+                <tbody>
+                    <tr>
+                        <td>
+                            <img src="https://wordswithlisbeth.com/wp-content/uploads/2019/08/man-with-flowers-gas-mask-862x1301.jpg" width="200" style="float:left; margin-right: 10px">
+                            <a href="https://wordswithlisbeth.com/2019/08/18/toxic-people-wont-leave-on-their-own/">Toxic People Won’t Leave On Their Own</a>
+                            <p>What you tolerate, stays. What you put up with? It takes a seat on the couch and settles in.  Acceptance gives the head nod to extension. The state of not … 
+Read More</p>
+                            <div id="notes5d6800b65968e84d71a10a04" style="clear:both"></div>
+
+                        </td>
+                        <td>
+                            <button data-id="5d6800b65968e84d71a10a04" data-saved="true" class="btn post-btn save-btn"><i class="fas fa-star"></i> </button>
+                            
+                            <button data-id="5d6800b65968e84d71a10a04" class="btn post-btn notes-btn"><i class="far fa-sticky-note"></i>  </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://wordswithlisbeth.com/wp-content/uploads/2011/03/bumpers.jpg" width="200" style="float:left; margin-right: 10px">
+                            <a href="https://wordswithlisbeth.com/2019/08/11/weights-dont-have-a-gender/">Weights Don’t Have a Gender</a>
+                            <p>“She’s using the men’s weights!” People still say things like this. Really. Even in supposedly progressive sports where the prizes are equal dollars between men and women. (The endorsement contracts, … 
+Read More</p>
+                            <div id="notes5d6800b65968e84d71a10a05" style="clear:both"></div>
+
+                        </td>
+                        <td>
+                            <button data-id="5d6800b65968e84d71a10a05" data-saved="false" class="btn post-btn save-btn"><i class="far fa-star"></i> </button>
+                            
+                            <button data-id="5d6800b65968e84d71a10a05" class="btn post-btn notes-btn"><i class="far fa-sticky-note"></i>  </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://wordswithlisbeth.com/wp-content/uploads/2019/07/bumpers-862x575.jpg" width="200" style="float:left; margin-right: 10px">
+                            <a href="https://wordswithlisbeth.com/2019/07/09/thats-why-i-like-it/">“That’s Why I Like It”</a>
+                            <p>He was young and dark-haired, standing across the street from the older woman. No shirt. Mower grass bag in one hand on this sleepy Santa Cruz street where twilight was … 
+Read More</p>
+                            <div id="notes5d6800b65968e84d71a10a06" style="clear:both"></div>
+
+                        </td>
+                        <td>
+                            <button data-id="5d6800b65968e84d71a10a06" data-saved="false" class="btn post-btn save-btn"><i class="far fa-star"></i> </button>
+                            
+                            <button data-id="5d6800b65968e84d71a10a06" class="btn post-btn notes-btn"><i class="far fa-sticky-note"></i>  </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://wordswithlisbeth.com/wp-content/uploads/2019/06/randy-fath-783155-unsplash-862x575.jpg" width="200" style="float:left; margin-right: 10px">
+                            <a href="https://wordswithlisbeth.com/2019/06/18/do-you-fit-or-not/">Do you fit or not?</a>
+                            <p>Sometimes in life, it comes down to this: If you don’t fit, you don’t fit. They’re likely not bad people in this place where you don’t fit. They’re just not … 
+Read More</p>
+                            <div id="notes5d6800b65968e84d71a10a07" style="clear:both"></div>
+
+                        </td>
+                        <td>
+                            <button data-id="5d6800b65968e84d71a10a07" data-saved="false" class="btn post-btn save-btn"><i class="far fa-star"></i> </button>
+                            
+                            <button data-id="5d6800b65968e84d71a10a07" class="btn post-btn notes-btn"><i class="far fa-sticky-note"></i>  </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://wordswithlisbeth.com/wp-content/uploads/2019/06/miguel-oros-472818-unsplash-862x575.jpg" width="200" style="float:left; margin-right: 10px">
+                            <a href="https://wordswithlisbeth.com/2019/06/16/more-surprises-tomorrow/">More Surprises Tomorrow</a>
+                            <p>“More surprises tomorrow.” That was on the monitor in the Marshall’s checkout line. They meant in the store but I was thinking, “Oh yeah, that’s life.” Life is full of … 
+Read More</p>
+                            <div id="notes5d6800b65968e84d71a10a08" style="clear:both"></div>
+
+                        </td>
+                        <td>
+                            <button data-id="5d6800b65968e84d71a10a08" data-saved="false" class="btn post-btn save-btn"><i class="far fa-star"></i> </button>
+                            
+                            <button data-id="5d6800b65968e84d71a10a08" class="btn post-btn notes-btn"><i class="far fa-sticky-note"></i>  </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://wordswithlisbeth.com/wp-content/uploads/2011/06/tryingtobeserious.jpg" width="200" style="float:left; margin-right: 10px">
+                            <a href="https://wordswithlisbeth.com/2019/05/12/stop-the-go-hard-or-go-home-nonsense/">Stop the Go Hard or Go Home Nonsense</a>
+                            <p>“Go hard or go home.” Stop it. Stop listening to this bullshit and stop repeating it. Saying it won’t make you tougher. It will only make you sound stupid. You can’t … 
+Read More</p>
+                            <div id="notes5d6800b65968e84d71a10a09" style="clear:both"></div>
+
+                        </td>
+                        <td>
+                            <button data-id="5d6800b65968e84d71a10a09" data-saved="false" class="btn post-btn save-btn"><i class="far fa-star"></i> </button>
+                            
+                            <button data-id="5d6800b65968e84d71a10a09" class="btn post-btn notes-btn"><i class="far fa-sticky-note"></i>  </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://wordswithlisbeth.com/wp-content/uploads/2019/04/melissa-askew-642466-unsplash-862x647.jpg" width="200" style="float:left; margin-right: 10px">
+                            <a href="https://wordswithlisbeth.com/2019/04/07/i-think-were-all-on-the-struggle-bus/">I Think We’re All On the Struggle Bus</a>
+                            <p>Raise your hand if you’re struggling. Did you do it? Or almost? Are you sitting in a public place and you’re like, “Um, I just raised my hand in Starbucks?” … 
+Read More</p>
+                            <div id="notes5d6800b65968e84d71a10a0a" style="clear:both"></div>
+
+                        </td>
+                        <td>
+                            <button data-id="5d6800b65968e84d71a10a0a" data-saved="false" class="btn post-btn save-btn"><i class="far fa-star"></i> </button>
+                            
+                            <button data-id="5d6800b65968e84d71a10a0a" class="btn post-btn notes-btn"><i class="far fa-sticky-note"></i>  </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://wordswithlisbeth.com/wp-content/uploads/2014/02/bumpers-in-gym.jpg" width="200" style="float:left; margin-right: 10px">
+                            <a href="https://wordswithlisbeth.com/2019/04/02/depressed-get-to-the-gym/">Depressed? Get to the Gym</a>
+                            <p>Sometimes, the clouds clear. You’ve been living life but it’s a dark, depressing, muddy mess and you’re not sure if you’re ever going to see the sun again but you … 
+Read More</p>
+                            <div id="notes5d6800b65968e84d71a10a0b" style="clear:both"></div>
+
+                        </td>
+                        <td>
+                            <button data-id="5d6800b65968e84d71a10a0b" data-saved="false" class="btn post-btn save-btn"><i class="far fa-star"></i> </button>
+                            
+                            <button data-id="5d6800b65968e84d71a10a0b" class="btn post-btn notes-btn"><i class="far fa-sticky-note"></i>  </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://wordswithlisbeth.com/wp-content/uploads/2014/10/lisbeth-jasper-kettlebells-michael-brian-photograph-862x688.jpg" width="200" style="float:left; margin-right: 10px">
+                            <a href="https://wordswithlisbeth.com/2019/03/31/isnt-it-time-you-next-leveled-yourself/">Isn’t It Time You Next Leveled Yourself?</a>
+                            <p>This week, I was so on fire that they started calling me “Next Level Lisbeth” around the office. What’s that feel like? Free. It felt free. Like I could be … 
+Read More</p>
+                            <div id="notes5d6800b65968e84d71a10a0c" style="clear:both"></div>
+
+                        </td>
+                        <td>
+                            <button data-id="5d6800b65968e84d71a10a0c" data-saved="false" class="btn post-btn save-btn"><i class="far fa-star"></i> </button>
+                            
+                            <button data-id="5d6800b65968e84d71a10a0c" class="btn post-btn notes-btn"><i class="far fa-sticky-note"></i>  </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://wordswithlisbeth.com/wp-content/uploads/2019/03/whole-cookie-862x685.jpg" width="200" style="float:left; margin-right: 10px">
+                            <a href="https://wordswithlisbeth.com/2019/03/24/dont-take-crumbs/">Don’t Take Crumbs</a>
+                            <p>We’ve been over this before but I need to say it again: don’t take crumbs. DO.NOT.TAKE.CRUMBS. Click To Tweet There, I yelled. But this is super-important because I see you … 
+Read More</p>
+                            <div id="notes5d6800b65968e84d71a10a0d" style="clear:both"></div>
+
+                        </td>
+                        <td>
+                            <button data-id="5d6800b65968e84d71a10a0d" data-saved="false" class="btn post-btn save-btn"><i class="far fa-star"></i> </button>
+                            
+                            <button data-id="5d6800b65968e84d71a10a0d" class="btn post-btn notes-btn"><i class="far fa-sticky-note"></i>  </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!--END THE COL HERE -->
+        </div>
+       
+    </div>
+</div>
+
+
+<!--Javascript -->
+
+<script type="text/javascript">
+
+    // Display the note section when you click the notes button
+    $(".notes-btn").on("click", function (event) {
+        event.preventDefault();
+        console.log("i clicked notes");
+        var thisId = $(this).attr("data-id");
+        // $("#note-modal").modal("toggle");
+        $("#notes" + thisId).empty();
+
+        var thisId = $(this).attr("data-id");
+
+        $.ajax({
+            type: "GET",
+            url: "/posts/" + thisId
+        })
+
+            .then(function (data) {
+                console.log(data);
+                $("#notes" + thisId).append("<br> <h6>Add a Note </h6>");
+                $("#notes" + thisId).append("<input class='title-field' id='titleinput"+thisId+"' name='title' > <br><br>");
+                $("#notes" + thisId).append("<textarea class= 'note-body' id='bodyinput"+thisId+"' name='body'></textarea> <br>");
+                $("#notes" + thisId).append("<button class='add savenote btn' data-id='" + data._id + "' >Save Note</button>");
+                
+
+                if (data.note[0]) {
+                    console.log(data.note[0]);
+                    $("#titleinput"+thisId).val(data.note[0].title);
+                    $("#bodyinput"+thisId).val(data.note[0].body);
+                }
+            })
+
+    });
+
+    $(document).on("click", ".savenote", function () {
+        console.log("i'm adding a note");
+        var thisId = $(this).attr("data-id");
+        console.log("saving a note to " + thisId)
+
+        $.ajax({
+            type: "POST",
+            url: "/posts/" + thisId,
+            data: {
+                title: $("#titleinput" + thisId).val(),
+                body: $("#bodyinput" + thisId).val()
+            }
+        })
+        .then (() => {
+            alert("Note was saved.");
+        })
+    })
+
+
+
+
+    $(".save-btn").on("click", function (event) {
+        event.preventDefault();
+        console.log("i clicked save");
+
+        var thisId = $(this).attr("data-id");
+        var saved = ($(this).attr("data-saved") == "true"); 
+        console.log(thisId);
+        console.log(saved); 
+
+        $.ajax("/api/posts/" + thisId, {
+                type: "PUT",
+                data: { isSaved: !saved }
+            })
+
+                .then(function () {
+                    location.reload(); 
+                })
+    });
+
+
+
+
+
+
+
+</script>
+
+    </div>
+<script type="text/javascript">
+
+ // Click to view Saved Posts 
+    $("#saved-list").on("click", function(event) {
+        event.preventDefault(); 
+        console.log("i clicked to view saved posts"); 
+        window.location.href = "/saved";  
+
+    })
+
+           // Click to view Saved Posts 
+    $("#all-list").on("click", function(event) {
+        event.preventDefault(); 
+        console.log("i clicked to view all posts"); 
+        window.location.href = "/";  
+
+    })
+
+    // Clear Posts 
+     $("#clear-list").on("click", function(event) {
+        event.preventDefault(); 
+        console.log("i clicked to clear the posts"); 
+        window.location.href = "/clear";  
+
+    })
+
+     // Scrape Posts 
+     $("#scrape-list").on("click", function(event) {
+        event.preventDefault(); 
+        console.log("i clicked to clear the posts"); 
+        
+        $.ajax("/scrape", {
+            type: "GET"
+        })
+        .then(function() {
+            console.log("finished scrape"); 
+            setTimeout(() => {
+                window.location.href = "/";
+            }, 1000)
+            
+        })
+        
+        
+    }) 
+
+</script>
+    
+</body>
+
+</html>
